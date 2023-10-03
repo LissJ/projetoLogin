@@ -1,0 +1,61 @@
+html {
+    background-color: #ebe0ff;
+
+}
+
+/* RESET CSS */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+/* FIM RESET CSS */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(Font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(Font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(Font/Roboto-Regular.ttf);
+}
+
+/* CSS */
+.nome h1 {
+    padding: 30px 0;
+    font: 600 30px 'Poppins';
+    text-align: center;
+    background-color: #9a87fa;
+    height: 100px;
+}
+
+.subtitulo {
+    font: 200 20px 'Poppins';
+    background-color: #40067e;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.titulo {
+    font: 600 30px 'Poppins';
+    margin-left: 160px;
+    margin-top: 100px;
+}
