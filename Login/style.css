@@ -1,5 +1,5 @@
 html {
-    background-color: #ebe0ff;
+    background-color: #fff;
 
 }
 
@@ -38,24 +38,49 @@ a {
 
 /* CSS */
 .nome h1 {
-    padding: 30px 0;
-    font: 600 30px 'Poppins';
-    text-align: center;
-    background-color: #9a87fa;
-    height: 100px;
-}
-
-.subtitulo {
-    font: 200 20px 'Poppins';
-    background-color: #40067e;
-    height: 50px;
+    padding: 10px 200px;
+    font: 300 23px 'Poppins';
+    /* text-align: center; */
     color: #fff;
-    text-align: center;
-    padding: 10px 0;
+    background-color: #06107e;
+    height: 60px;
 }
 
 .titulo {
     font: 600 30px 'Poppins';
     margin-left: 160px;
     margin-top: 100px;
+}
+
+.tudinho{
+    justify-content: center;
+    display: flex;
+}
+
+img{
+    margin-right: 120px;
+    width: 500px;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+input{
+    color: #fff;
+    width: 390px;
+    display: flex;
+    padding: 10px 15px;
+    font: 400 15px 'Poppins' ;
+    border-radius: 10px;
+    background-color: #85b8f2;
+}
+
+button{
+    display: flex;
+    padding: 10px 85px;
+    font: 400 15px 'Poppins' ;
+    border-radius: 10px;
+    background-color: #06107e;
+    color: #fff;
 }

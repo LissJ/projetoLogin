@@ -2,7 +2,7 @@
 const form = document.querySelector('.login-form');
 
 // seleciona os campos de entrada de usuário e senha
-const usernameInput = form.querySelector('input[type="text"]')
+const usernameInput = form.querySelector('input[type="text"]');
     // dessa forma, identificamos a tag pelo tipo de input dela, usamos o form ao invés de document para indicar em qual classe, ou dentro de onde eu vou achar esse input
 const senhaInput = form.querySelector('input[type="password"]');
 
