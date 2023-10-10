@@ -1,6 +1,5 @@
 html {
     background-color: #fff;
-
 }
 
 /* RESET CSS */
@@ -53,13 +52,23 @@ a {
 }
 
 .tudinho{
+    margin-left: -53px;
     justify-content: center;
     display: flex;
 }
 
 img{
     margin-right: 120px;
-    width: 500px;
+    width: 591px;
+}
+
+.loginzin{
+    font: 400 25px 'Poppins';
+    margin-bottom: 40px;
+}
+
+span{
+    color: #1e5ee9;
 }
 
 input::placeholder{
@@ -67,6 +76,7 @@ input::placeholder{
 }
 
 input{
+    margin-bottom: 40px;
     color: #fff;
     width: 390px;
     display: flex;
@@ -77,10 +87,16 @@ input{
 }
 
 button{
+    margin-left: 84px;
     display: flex;
+    align-items: center;
     padding: 10px 85px;
     font: 400 15px 'Poppins' ;
     border-radius: 10px;
     background-color: #06107e;
     color: #fff;
+}
+
+.formulario{
+    margin-top: 100px;
 }
