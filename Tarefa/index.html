@@ -1,24 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarefas</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <div class="header">
+            <div class="nome">
+                <h1>
+                    Tarefas
+                </h1>
+            </div>
+        </div>
+    </header>
+
     <div class="container">
-        <h1>
-            Tarefas:
-        </h1>
+        <div class="titulo">
+            <p>
+                Crie uma tarefa aqui!
+            </p>
+        </div>
 
         <form class="form">
             <input type="text" id="input" placeholder="Adicione uma tarefa">
-            <button type="submit">Adicionar</button>
-            <ul id="lista"></ul>
+            <button class="primeiro" type="submit">Adicionar</button>
         </form>
 
+        <div class="tarefinha">
+            <ul id="lista"></ul>
+        </div>
+        
+        
         <script src="main.js"></script>
     </div>
 </body>
+
 </html>

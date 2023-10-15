@@ -36,6 +36,11 @@ a {
 }
 
 /* CSS */
+.form{
+    margin-right: 50px;
+    margin-top: 70px;
+}
+
 .nome h1 {
     padding: 10px 200px;
     font: 300 23px 'Poppins';
@@ -58,8 +63,11 @@ a {
 }
 
 img{
-    margin-right: 120px;
-    width: 591px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 100px;
+    width: auto;
+    height: 550px;
 }
 
 .loginzin{
@@ -87,7 +95,7 @@ input{
 }
 
 button{
-    margin-left: 84px;
+    margin-left: 65px;
     display: flex;
     align-items: center;
     padding: 10px 85px;

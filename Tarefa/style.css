@@ -1,0 +1,147 @@
+html {
+    background-color: #fff;
+}
+
+/* RESET CSS */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+/* FIM RESET CSS */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(Font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(Font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(Font/Roboto-Regular.ttf);
+}
+
+/* CSS */
+.nome h1 {
+    padding: 10px 200px;
+    font: 300 23px 'Poppins';
+    /* text-align: center; */
+    color: #fff;
+    background-color: #06107e;
+    height: 60px;
+}
+
+.titulo {
+    font: 400 25px 'Poppins';
+    margin-left: 275px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.tudinho{
+    margin-left: -53px;
+    justify-content: center;
+    display: flex;
+}
+
+img{
+    margin-right: 120px;
+    width: 591px;
+}
+
+.loginzin{
+    font: 400 25px 'Poppins';
+    margin-bottom: 40px;
+}
+
+span{
+    color: #1e5ee9;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+input{
+    margin-bottom: 40px;
+    margin-left: 275px;
+    color: #fff;
+    width: 390px;
+    display: flex;
+    padding: 10px 15px;
+    font: 400 15px 'Poppins' ;
+    border-radius: 10px;
+    background-color: #85b8f2;
+}
+
+.tarefinha{
+    margin-left: 295px;
+}
+
+ul{
+    font: 400 15px 'Poppins' ;
+    color: #000;
+}
+
+li{
+    color: #000;
+}
+
+button{
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: #06107e;
+    font: 400 13px 'Poppins' ;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+
+.primeiro{
+    height: 43px;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    padding: 10px 85px;
+    font: 400 15px 'Poppins' ;
+    border-radius: 10px;
+    background-color: #06107e;
+    color: #fff;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: #030731;
+}
+
+.form{
+    display: flex;
+}
+
+.formulario{
+    margin-top: 100px;
+}
+
+.mensagem{
+    margin-right: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font: 400 16px 'Poppins';
+}
